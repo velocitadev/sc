@@ -1,6 +1,4 @@
-/**
- *Submitted for verification at BscScan.com on 2022-03-29
-*/
+
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.12;
@@ -733,11 +731,11 @@ abstract contract Ownable is Context {
         _owner = newOwner;
     }
 }
-contract Vellocity is ERC20Burnable, ERC20Pausable, Ownable {  
-    uint public constant INITIAL_SUPPLY = 1000000000 * (10**18);
+contract Velocita is ERC20Burnable, ERC20Pausable, Ownable {  
+    uint public constant INITIAL_SUPPLY = 60000000000 * (10**18);
 
     constructor() public
-        ERC20("Vellocity", "Vellocity") {            
+        ERC20("Velocita", "VELO") {            
         _mint(msg.sender, INITIAL_SUPPLY);        
     }
 
